@@ -1,16 +1,22 @@
----
-name: Tails Azimuth
-avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
-email: address@yoursite.com
-twitter: https://twitter.com/Twitter
-linkedin: https://www.linkedin.com
-github: https://github.com
----
+const siteMetadata = {
+  title: 'روانشناسی به زبان ساده',
+  author: 'اشکان',
+  headerTitle: 'Simply Explained Psych',
+  description: 'کالبدشکافی ذهن انسان: تحلیل رفتار، جوامع و تکامل از دریچه روانشناسی.',
+  language: 'fa-IR',
+  theme: 'system', // پشتیبانی خودکار از حالت تاریک و روشن
+  siteUrl: 'https://your-domain.vercel.app',
+  siteRepo: 'https://github.com/your-username/your-repo-name', // آدرس گیت هاب خودت رو بعدا اینجا بذار
+  siteLogo: '/static/images/logo.png',
+  image: '/static/images/avatar.png',
+  socialBanner: '/static/images/twitter-card.png',
+  email: 'your-email@example.com', // ایمیلت رو وارد کن
+  github: 'https://github.com/your-username',
+  youtube: 'https://youtube.com',
+  locale: 'fa-IR',
+  analytics: {
+    googleAnalyticsId: '', 
+  },
+}
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
-
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+module.exports = siteMetadata
